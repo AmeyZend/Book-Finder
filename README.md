@@ -61,17 +61,17 @@ The aim of this project was practicing React, a great tech that I've started lea
 Follow the steps below to run the project in your machine, before it all, you need to have the Git, Node.js and Yarn installed on your computer, then follow the steps below:
 
 ```bash
-# Clone the repo
-$ git clone https://github.com/TiagoDiass/book-finder.git
-
 # Enter in the directory
 $ cd book-finder
 
 # Install the dependencies
-$ yarn
+$ npm install
+
+# Run this code
+$ export NODE_OPTIONS=--openssl-legacy-provider
 
 # Start the app
-$ yarn start
+$ npm start
 ```
 
 After following these steps, your terminal will show you what port is the app running on(it's usually the 3000), so you'll just need to open your browser
