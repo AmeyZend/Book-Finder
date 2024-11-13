@@ -1,0 +1,66 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.main-block {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.message {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.library-image img {
+  width: 100%;
+  max-width: 400px;
+  animation: moveImage 10s linear infinite;
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.search-form input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-form button {
+  background-color: #444;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.book-cards .book-card {
+  width: 200px;
+  margin: 10px;
+}
